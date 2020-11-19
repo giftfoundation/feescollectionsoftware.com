@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+ 
+
+
+<url>
+  <loc>http://www.feescollectionsoftware.com/</loc>
+  <lastmod>2019-10-22T11:37:23+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://www.feescollectionsoftware.com/features.html</loc>
+  <lastmod>2019-10-22T11:36:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.feescollectionsoftware.com/demo.html</loc>
+  <lastmod>2019-10-22T11:36:59+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.feescollectionsoftware.com/pricing.html</loc>
+  <lastmod>2019-10-22T11:36:31+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://www.feescollectionsoftware.com/contact-us.html</loc>
+  <lastmod>2019-10-22T11:37:12+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
