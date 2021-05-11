@@ -21,6 +21,7 @@
     <meta property="twitter:description" content="Fees Pending & Forecasting. ico. Offline or Online. ico. High Security Settings ...  Fees Collection Software . Online & Desktop Version. Screen Shot & Free Demo Available ...">
     <meta property="twitter:image" content="/images/slider/bannerimg2.jpg">
     <title>CONTACT US | SCHOOL FEES COLLECTION SOFTWARE</title>
+    <script src="https://www.google.com/recaptcha/api.js?render=6LeFPbMaAAAAAGW2OvAsNdieU3Nj7N4bchhHEP-M"></script>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
@@ -66,8 +67,7 @@
                     </ul>
                     <h5>Call Us</h5>
                     <p><strong>Telephone No. :</strong> +91 422 4372678 / +91 422 2446043</p>
-                    <p><strong>E-mail :</strong><a href="mailto:support@schoolsoftwares.com">support@schoolsoftwares.com</a> ,
-                        <a href="mailto:admin@genuineinfotech.com">admin@genuineinfotech.com</a></p>
+                    <p><strong>E-mail :</strong><a href="mailto:enquiry@genuineinfotech.com">enquiry@genuineinfotech.com</a></p>
                     <h5>For Product Enquiry ( New Clients ) :</h5>
                     <p><strong>Mobile No. :</strong> 093600 39678 / 094430 59678</p>
                     <h5>For Software Support ( Existing Clients ) :</h5>
@@ -75,7 +75,7 @@
                 </div>
                 <div class="col-md-7 contact-form">
                     <h5>Enquiry Form</h5>
-                    <form action="https://formspree.io/support@schoolsoftwares.com" method="POST">
+                    <form action="https://e.genuineinfotech.com/" method="POST">
                         <div class="form-group row">
                             <label for="inputyourname" class="col-sm-4 col-form-label">Your Name *</label>
                             <div class="col-sm-8">
@@ -100,7 +100,7 @@
                         <div class="form-group row">
                             <label for="inputemail" class="col-sm-4 col-form-label">Email *</label>
                             <div class="col-sm-8">
-                                <input type="email" class="form-control" id="inputemail" name="Email" required="required">
+                                <input type="email" class="form-control" id="inputemail" name="email" required="required">
                             </div>
                         </div>
                         <div class="form-group row">
@@ -231,5 +231,18 @@
         e.parentNode.insertBefore($, e)
     })(document, "script");
     </script>
+    <script>
+   $(document).ready(function(){
+     $( "input[name='email']" ).on("change",function(){
+       $("input[name='_gotcha']").val("");        
+       grecaptcha.ready(function() {
+        grecaptcha.execute('6LeFPbMaAAAAAGW2OvAsNdieU3Nj7N4bchhHEP-M', {action: 'submit'}).then(function(token) {
+            /*console.log( "token \n " + token);*/
+            $("input[name='_gotcha']").val(token);
+        });
+       });
+    });
+   });
+ </script>
 </body>
 </html>
